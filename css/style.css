@@ -418,7 +418,7 @@ nav.main a[aria-current="page"] { color: var(--gold); border-bottom-color: var(-
 
 /* ---------- split ---------- */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
-.split img { border-radius: var(--radius); box-shadow: 0 24px 60px rgba(0,0,0,.5); }
+.split img { border-radius: var(--radius); box-shadow: 0 24px 60px rgba(0,0,0,.5); width: 100%; height: auto; }
 .split .body p + p { margin-top: 1rem; }
 
 /* ---------- review wall ---------- */
