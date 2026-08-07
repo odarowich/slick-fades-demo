@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slick Fades — Draft Picker (internal)</title>
+<meta name="robots" content="noindex">
+<style>
+  body { margin:0; font-family: system-ui, sans-serif; background:#141519; color:#f2ead9; min-height:100svh; display:grid; place-items:center; }
+  main { text-align:center; padding:2rem; }
+  h1 { letter-spacing:.02em; }
+  .row { display:flex; gap:1.2rem; justify-content:center; flex-wrap:wrap; margin-top:2rem; }
+  a.card { display:block; width:240px; padding:1.4rem 1.2rem; border-radius:14px; text-decoration:none; color:inherit; border:1px solid rgba(242,234,217,.15); background:#1c1e24; transition:transform .15s ease; }
+  a.card:hover { transform:translateY(-4px); }
+  a.card strong { display:block; font-size:1.15rem; margin-bottom:.4rem; }
+  a.card span { font-size:.9rem; color:#cfc6b2; }
+  .v1 { border-top:4px solid #3aa7b8; } .v2 { border-top:4px solid #e0a83f; } .v3 { border-top:4px solid #21707e; }
+  p.note { color:#cfc6b2; max-width:52ch; margin:1rem auto 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Slick Fades, three drafts</h1>
+  <p class="note">Internal picker page, not part of the deliverable. v1 is the full 13-page site; v2 and v3 are homepage-only design alternates.</p>
+  <div class="row">
+    <a class="card v1" href="v1-mural/index.html"><strong>v1 · The Mural Wall</strong><span>Dark charcoal airbrush world. Full multi-page build with all SEO pages.</span></a>
+    <a class="card v2" href="v2-gold/index.html"><strong>v2 · The Gold Standard</strong><span>Light vintage-luxury take. Cream, leather brown, gold foil.</span></a>
+    <a class="card v3" href="v3-fresh/index.html"><strong>v3 · Fresh Coat</strong><span>Teal-drenched street-art take. Sticker energy, drips, tags.</span></a>
+  </div>
+</main>
+</body>
+</html>
