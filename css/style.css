@@ -272,7 +272,7 @@ section { padding-block: clamp(3.5rem, 8vw, 6.5rem); }
 }
 .brand:hover { color: var(--cream); }
 .brand .pole { width: 26px; height: 26px; flex: none; }
-.brand .logo-badge { width: 36px; height: 36px; flex: none; border-radius: 50%; box-shadow: 0 0 0 2px rgba(242,234,217,.25), 0 4px 10px rgba(0,0,0,.4); }
+.brand .logo-badge { width: 36px; height: 36px; flex: none; border-radius: 50%; background: #fff; object-fit: cover; box-shadow: 0 0 0 2px rgba(242,234,217,.25), 0 4px 10px rgba(0,0,0,.4); }
 .brand em { font-style: normal; color: var(--teal); }
 
 nav.main { margin-left: auto; display: flex; gap: 1.4rem; align-items: center; }
