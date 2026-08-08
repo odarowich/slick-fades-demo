@@ -408,7 +408,9 @@ nav.main a[aria-current="page"] { color: var(--gold); border-bottom-color: var(-
   background: var(--ink);
   padding-block: 1.6rem;
 }
-.edge-strip .wrap { display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; justify-content: center; }
+/* 2rem, not 2.5rem: at 2.5rem the six badges need 1193px against a 1180px .wrap,
+   so the last one orphans onto its own row at every desktop width. */
+.edge-strip .wrap { display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: center; }
 .edge {
   display: flex; align-items: center; gap: .6rem;
   font-family: "Big Shoulders Display", sans-serif; font-weight: 700;
