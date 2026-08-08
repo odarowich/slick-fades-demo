@@ -314,8 +314,9 @@ nav.main a[aria-current="page"] { color: var(--gold); border-bottom-color: var(-
 }
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
-  background-size: cover; background-position: center;
-  opacity: .5;
+  background-size: cover; background-position: center 65%;
+  filter: brightness(.42) saturate(.9);
+  opacity: .65;
   mask-image: linear-gradient(180deg, #000 55%, transparent 98%);
   -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent 98%);
 }
@@ -604,3 +605,8 @@ footer a:hover { color: var(--gold); }
 
 /* IG tiles link wrapper */
 .gallery-grid figure a { display: block; height: 100%; }
+
+/* razor video loop card */
+.video-card { padding: 0; overflow: hidden; }
+.video-card video { display: block; width: 100%; height: auto; }
+.video-card .sub { padding: .8rem 1.2rem 1rem; margin: 0; }
